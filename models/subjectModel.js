@@ -1,5 +1,3 @@
-// models/subjectModel.js
-
 const mongoose = require("mongoose");
 
 const chapterSchema = new mongoose.Schema({
@@ -11,7 +9,7 @@ const chapterSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    videoLinks: [{ // Change from type String to an array of strings for multiple YouTube links
+    videoLinks: [{ 
         type: String,
         required: true,
     }],

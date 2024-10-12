@@ -1,5 +1,3 @@
-// routes/elearning.js
-
 const express = require("express");
 const router = express.Router();
 const addSubject = require("../controllers/addSubject");
